@@ -1,14 +1,29 @@
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Vipin Patel</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Designed by <a href="*">Vipin Patel</a>
+        </div>
+    </footer>
+    <!-- End Footer -->
 
-  <!-- Javascript -->
-  <script src="{{ asset('assets/Admin/dashboard/plugins/popper.min.js') }}"></script>
-  <script src="{{ asset('assets/Admin/dashboard/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Charts JS -->
-  <script src="{{ asset('assets/Admin/dashboard/plugins/chart.js/chart.min.js') }}"></script>
-  <script src="{{ asset('assets/Admin/dashboard/js/index-charts.js') }}"></script>
+    <!-- Vendor JS Files -->
+    <script src="{{ asset('assets/Admin/dashboard/vendor/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/chart.js/chart.umd.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/echarts/echarts.min.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/quill/quill.min.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/simple-datatables/simple-datatables.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/tinymce/tinymce.min.js') }}"></script>
+    <script src="{{ asset('assets/Admin/dashboard/vendor/php-email-form/validate.js') }}"></script>
 
-  <!-- Page Specific JS -->
-  <script src="{{ asset('assets/Admin/dashboard/js/app.js') }}"></script>
+    <!-- Template Main JS File -->
+    <script src="{{ asset('assets/Admin/dashboard/js/main.js') }}"></script>
 
 </body>
 
