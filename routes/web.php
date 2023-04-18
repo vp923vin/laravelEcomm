@@ -23,7 +23,8 @@ Route::fallback(function () {
 
 Route::get('/login', function(){
     return view('Admin.login');
-});
-Route::post('/login', [AuthController::class, 'adminLogin'])->name('login');
+})->name('login');
+Route::post('/login', [AuthController::class, 'adminLogin']);
 Route::get('/reset-password', [AuthController::class, 'resetPassword'])->name('reset-password');
 Route::get('/dashboard', [AuthController::class, 'dashboard']);
+Route::get('/update-password', [AuthController::class, 'updatePass']);

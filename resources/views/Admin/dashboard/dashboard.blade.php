@@ -1,5 +1,9 @@
 @extends('Admin.dashboard.include.main')
 
+@push('page-title')
+    Dashboard
+@endpush
+
 @section('content')
     <section class="section dashboard">
         <div class="row">
